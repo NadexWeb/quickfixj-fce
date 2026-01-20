@@ -216,7 +216,9 @@
       <value enum="CB" description="USER_NOTIFICATION"/>
       <value enum="CC" description="STREAM_ASSIGNMENT_REQUEST"/>
       <value enum="CD" description="STREAM_ASSIGNMENT_REPORT"/>
-      <value enum="CE" description="STREAM_ASSIGNMENT_REPORT_ACK"/>
+      <value enum="CQ" description="ACCOUNTSUMMARYREPORT"/>
+      <value enum="CW" description="QUOTEACK"/>
+      <value enum="UA" description="ACCOUNTSUMMARYREPORTREQUEST"/>
       <value enum="BA" description="COLLATERAL_REPORT"/>
       <value enum="BB" description="COLLATERAL_INQUIRY"/>
       <value enum="BC" description="NETWORK_STATUS_REQUEST"/>
