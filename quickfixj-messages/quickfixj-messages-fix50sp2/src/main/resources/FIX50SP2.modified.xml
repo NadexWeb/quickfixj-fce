@@ -15,7 +15,7 @@
             <field name="TotalNetValue" required="N"/>
             <field name="MarginExcess" required="N"/>
             <field name="TransactTime" required="N"/>
-            <field name="UnsolicitedIndicator" required="Y"/>
+            <field name="UnsolicitedIndicator" required="N"/>
             <!--<component name="MarginAmountData" required="Y"/>-->
             <component name="Parties" required="Y"/>
             <component name="CollateralAmountGrp" required="Y"/>
@@ -105,6 +105,7 @@
             <field name="WorkingIndicator" required="N"/>
             <field name="OrdRejReason" required="N"/>
             <field name="ExecRestatementReason" required="N"/>
+            <field name="TrdType" required="N"/>
             <field name="Account" required="N"/>
             <field name="AcctIDSource" required="N"/>
             <field name="AccountType" required="N"/>
