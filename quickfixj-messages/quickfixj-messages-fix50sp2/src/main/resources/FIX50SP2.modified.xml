@@ -2560,15 +2560,6 @@
             <field name="ApplQueueDepth" required="N"/>
             <field name="ApplQueueResolution" required="N"/>
             <component name="RoutingGrp" required="N"/>
-            <field name="Timestamp" required="N"/>
-            <field name="MessageID" required="N"/>
-            <field name="IsDerived" required="Y"/>
-            <field name="Symbol" required="Y"/>
-            <field name="FeederSymbol" required="Y"/>
-            <field name="SettlementFrom" required="N"/>
-            <field name="SettlementTo" required="N"/>
-            <field name="UnderlyingId" required="N"/>
-            <field name="Product" required="N"/>
         </message>
         <message name="MarketDataRequestReject" msgtype="Y" msgcat="app">
             <field name="MDReqID" required="Y"/>
