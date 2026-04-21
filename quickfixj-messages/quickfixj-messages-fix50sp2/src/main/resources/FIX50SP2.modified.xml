@@ -121,6 +121,7 @@
             <field name="CashMargin" required="N"/>
             <field name="ClearingFeeIndicator" required="N"/>
             <component name="Instrument" required="Y"/>
+            <component name="InstrumentExtension" required="N"/> <!-- customisation -->
             <component name="FinancingDetails" required="N"/>
             <component name="UndInstrmtGrp" required="N"/>
             <field name="Side" required="Y"/>
